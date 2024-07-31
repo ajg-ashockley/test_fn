@@ -1,0 +1,17 @@
+Package: ajg.test.pkg
+Title: R Test Package
+Version: 0.0.1
+Authors@R: c(
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+    person("Andrew", "Shockley", , "andrew_shockley@gallagherre.com")
+  )
+Description: Contains general use functions created by the AR&D team. 
+    The functions contain commonly used procedures that are captured in this package in order to reduce 
+    copy/pasting of code and increase stability of processes.
+License: None
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    terra
